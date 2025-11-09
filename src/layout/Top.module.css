@@ -1,0 +1,23 @@
+.headerStyle {
+    text-align: center;
+    color: #000;
+    height: 64px;
+    padding-inline: 48px;
+    line-height: 64px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topLeftStyle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.buttonBox {
+    /* Add styles for button-box if needed */
+}
+

@@ -1,0 +1,24 @@
+.contentBox {
+    display: flex;
+}
+
+.treeBox {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.textBox {
+    margin-top: 20px;
+}
+
+.topTitle {
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+
+.subtitle {
+    font-size: 12px;
+    margin-top: 20px;
+}
+

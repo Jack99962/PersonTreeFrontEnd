@@ -1,9 +1,8 @@
 import SesstionOne from "./sesstionOne"
-
-import './index.css'
+import styles from './index.module.css'
 
 export default () => {
-  return <div className="index-box">
+  return <div className={styles.indexBox}>
     <SesstionOne />
   </div>
 }
