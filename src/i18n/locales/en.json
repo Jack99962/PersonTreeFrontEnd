@@ -1,0 +1,18 @@
+{
+  "common": {
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "connectWallet": "Connect Wallet"
+  },
+  "home": {
+    "title": "Leave your story, let the world remember you",
+    "subtitle": "PersonTree is a decentralized application (DApp) that allows you to record your personal stories on the blockchain, ensuring they are permanently preserved and accessible for future generations."
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "chinese": "中文"
+  }
+}
+

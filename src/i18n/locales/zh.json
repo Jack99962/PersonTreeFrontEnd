@@ -1,0 +1,18 @@
+{
+  "common": {
+    "about": "关于",
+    "faq": "常见问题",
+    "contact": "联系方式",
+    "connectWallet": "连接钱包"
+  },
+  "home": {
+    "title": "留下你的故事，让世界记住你",
+    "subtitle": "PersonTree 是一个去中心化应用程序（DApp），允许您在区块链上记录您的个人故事，确保它们被永久保存并为后代可访问。"
+  },
+  "language": {
+    "switch": "切换语言",
+    "english": "English",
+    "chinese": "中文"
+  }
+}
+

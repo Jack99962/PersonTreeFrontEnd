@@ -1,24 +1,32 @@
 .contentBox {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 
 .treeBox {
-    width: 300px;
+    width: 420px;
+    height: 560px;
     flex-shrink: 0;
 }
 
 .textBox {
-    margin-top: 20px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .topTitle {
     font-size: 60px;
     font-weight: bolder;
-    line-height: 3rem;
+    line-height: 1.2;
 }
 
 .subtitle {
     font-size: 12px;
     margin-top: 20px;
+    line-height: 1.6;
 }
 
