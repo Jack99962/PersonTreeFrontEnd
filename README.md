@@ -1,73 +1,95 @@
-# React + TypeScript + Vite
+# PersonTree - 让世界记住你的故事
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌳 关于 PersonTree
 
-Currently, two official plugins are available:
+PersonTree 是一个去中心化的个人故事记录平台，让您能够在区块链上永久保存和分享您的人生故事。每一段故事都像树上的叶子，共同构成您独特的人生之树，让您的记忆和经历得以传承给未来的世代。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 为什么选择 PersonTree？
 
-## React Compiler
+### 永久保存
+- 基于区块链技术，您的故事将被永久保存，不会因时间流逝而消失
+- 去中心化存储，无需担心服务器关闭或数据丢失
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 传承价值
+- 为后代留下珍贵的个人记忆和家族历史
+- 让您的故事成为家族传承的一部分
 
-## Expanding the ESLint configuration
+### 隐私安全
+- 您完全掌控自己的数据
+- 区块链技术确保数据的安全性和不可篡改性
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 可视化展示
+- 精美的 3D 树形结构展示您的人生故事
+- 直观、优雅的视觉体验
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ 核心功能
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 📝 记录故事
+在区块链上记录您的人生故事、重要时刻和珍贵回忆。每一段故事都是您人生之树上的一片叶子。
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🌲 3D 可视化
+通过交互式 3D 树模型，以直观的方式浏览和展示您的故事集合。旋转、缩放，探索您的人生之树。
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🔐 安全存储
+使用区块链技术确保您的故事安全存储，只有您拥有访问权限。
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🌍 多语言支持
+支持中文和英文，让不同语言背景的用户都能轻松使用。
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 👥 分享与传承
+选择性地与家人、朋友分享您的故事，或将它们作为遗产传承给后代。
+
+## 🚀 快速开始
+
+### 访问应用
+打开 PersonTree 应用，您将看到一个精美的 3D 树模型和欢迎界面。
+
+### 连接钱包
+点击"连接钱包"按钮，使用您的数字钱包登录。这是您访问和记录故事的入口。
+
+### 开始记录
+登录后，您可以开始记录您的第一个故事。每一段故事都会被安全地保存在区块链上。
+
+### 浏览您的树
+在主页上，您可以浏览您的个人故事树，查看已记录的所有故事。
+
+## 🎯 使用场景
+
+- **个人传记**: 记录您的人生历程和重要经历
+- **家族历史**: 为家族成员记录和保存家族故事
+- **重要时刻**: 保存人生中的里程碑事件和珍贵回忆
+- **遗产传承**: 将您的故事作为数字遗产传承给后代
+- **记忆保存**: 确保重要记忆不会因时间而遗忘
+
+## 🌟 产品特色
+
+- **去中心化**: 不依赖任何中心化服务器，数据真正属于您
+- **永久保存**: 基于区块链的不可篡改存储
+- **美观易用**: 现代化的界面设计和流畅的用户体验
+- **隐私保护**: 您完全控制自己的数据访问权限
+- **跨平台**: 支持各种设备和浏览器访问
+
+## 📱 支持的语言
+
+- 中文（简体）
+- English
+
+您可以在应用中随时切换语言。
+
+## 💬 联系我们
+
+如有任何问题或建议，欢迎通过以下方式联系我们：
+- 提交 Issue 反馈问题
+- 查看常见问题（FAQ）
+
+## 🔮 未来规划
+
+我们正在不断改进 PersonTree，未来将推出更多功能：
+- 故事分类和标签
+- 多媒体内容支持（图片、视频）
+- 故事分享和社交功能
+- 更多个性化定制选项
+
+---
+
+**PersonTree** - 留下你的故事，让世界记住你
